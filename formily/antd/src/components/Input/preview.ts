@@ -13,7 +13,10 @@ Input.Behavior = createBehavior(
   {
     name: 'Input',
     extends: ['Field'],
-    selector: (node) => node.props['x-component'] === 'Input',
+    selector: (node) => {
+      const componentName = node.props['x-component'] || ''
+      return componentName === 'Input' || componentName.startsWith('Field')
+    },
     designerProps: {
       propsSchema: createFieldSchema(AllSchemas.Input),
     },

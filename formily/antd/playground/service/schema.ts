@@ -44,3 +44,32 @@ export const loadInitialSchema = (designer: Engine) => {
     )
   } catch {}
 }
+
+export const publishSchema = async (designer: Engine) => {
+  const blob = new Blob(
+    [JSON.stringify(transformToSchema(designer.getCurrentTree()), null, 2)],
+    { type: 'application/json;charset=utf-8' }
+  )
+
+  if (fileHandle) {
+    const writable = await fileHandle.createWritable()
+    await writable.write(blob)
+    await writable.close()
+    message.success('Publish Success')
+  } else {
+    const a = document.createElement('a')
+    try {
+      a.style.display = 'none'
+      a.rel = 'noopener'
+      a.href = URL.createObjectURL(blob)
+      a.download = 'schema.json'
+      document.body.appendChild(a)
+      a.click()
+    } catch (error) {
+      console.error(error)
+    } finally {
+      URL.revokeObjectURL(a.href)
+      document.body.removeChild(a)
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { createForm } from '@formily/core'
-import { createSchemaField } from '@formily/react'
+import { createSchemaField, FormConsumer } from '@formily/react'
 import {
   Form,
   FormItem,
@@ -88,6 +88,13 @@ export const PreviewWidget: React.FC<IPreviewWidgetProps> = (props) => {
   return (
     <Form {...formProps} form={form}>
       <SchemaField schema={schema} />
+      <FormConsumer>
+        {(form) => (
+          <code>
+            <pre>{JSON.stringify(form.values, null, 2)}</pre>
+          </code>
+        )}
+      </FormConsumer>
     </Form>
   )
 }

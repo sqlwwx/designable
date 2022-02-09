@@ -15,7 +15,13 @@ Input.Behavior = createBehavior(
     extends: ['Field'],
     selector: (node) => {
       const componentName = node.props['x-component'] || ''
-      return componentName === 'Input' || componentName.startsWith('Field')
+      return (
+        componentName === 'Input' ||
+        componentName.startsWith('Field') ||
+        ['Picker', 'ImageUploader', 'VideoUploader', 'HoursSlide'].includes(
+          componentName
+        )
+      )
     },
     designerProps: {
       propsSchema: createFieldSchema(AllSchemas.Input),

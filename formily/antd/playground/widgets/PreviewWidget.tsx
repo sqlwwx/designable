@@ -27,6 +27,7 @@ import {
   FormTab,
   FormCollapse,
   ArrayTable,
+  ArrayTabs,
   ArrayCards,
 } from '@formily/antd'
 import { Card, Slider, Rate } from 'antd'
@@ -50,6 +51,7 @@ const SchemaField = createSchemaField({
     FormTab,
     FormCollapse,
     ArrayTable,
+    ArrayTabs,
     ArrayCards,
     FormItem,
     DatePicker,

@@ -5,6 +5,30 @@ import {
 } from '@designable/formily-transformer'
 import { message } from 'antd'
 
+let fileHandle
+
+export const loadSchema = async (designer: Engine) => {
+  ;[fileHandle] = await window.showOpenFilePicker({
+    types: [
+      {
+        description: 'json',
+        accept: {
+          'application/json': ['.json'],
+        },
+      },
+    ],
+    multiple: false,
+  })
+  designer.setCurrentTree(
+    transformToTreeNode(
+      await fileHandle
+        .getFile()
+        .then((file) => file.text())
+        .then(JSON.parse)
+    )
+  )
+}
+
 export const saveSchema = (designer: Engine) => {
   localStorage.setItem(
     'formily-schema',

@@ -4,6 +4,7 @@ export default {
     submit: '提交',
     cancel: '取消',
     reset: '重置',
+    load: '加载',
     publish: '发布',
   },
   'en-US': {
@@ -11,6 +12,7 @@ export default {
     submit: 'Submit',
     cancel: 'Cancel',
     reset: 'Reset',
+    load: 'Load',
     publish: 'Publish',
   },
 }

@@ -4,7 +4,7 @@ import { GithubOutlined } from '@ant-design/icons'
 import { useDesigner, TextWidget } from '@designable/react'
 import { GlobalRegistry } from '@designable/core'
 import { observer } from '@formily/react'
-import { loadInitialSchema, saveSchema } from '../service'
+import { loadInitialSchema, saveSchema, loadSchema } from '../service'
 
 export const ActionsWidget = observer(() => {
   const designer = useDesigner()
@@ -44,6 +44,14 @@ export const ActionsWidget = observer(() => {
         }}
       >
         <TextWidget>Save</TextWidget>
+      </Button>
+      <Button
+        type="primary"
+        onClick={() => {
+          loadSchema(designer)
+        }}
+      >
+        <TextWidget>Load</TextWidget>
       </Button>
       <Button
         type="primary"

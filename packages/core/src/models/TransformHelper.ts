@@ -15,7 +15,7 @@ import {
   calcClosestEdges,
   calcCombineSnapLineSegment,
 } from '@designable/shared'
-import { observable, define, action } from '@formily/reactive'
+import { observable, define, action } from '@formily-x/reactive'
 import { SpaceBlock, AroundSpaceBlock } from './SpaceBlock'
 import { Operation } from './Operation'
 import { TreeNode } from './TreeNode'

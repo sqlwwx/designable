@@ -1,4 +1,4 @@
-import type { ISchema } from '@formily/react'
+import type { ISchema } from '@formily-x/react'
 
 export const Card: ISchema & { Addition?: ISchema } = {
   type: 'object',

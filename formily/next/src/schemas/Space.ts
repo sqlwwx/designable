@@ -1,4 +1,4 @@
-import type { ISchema } from '@formily/react'
+import type { ISchema } from '@formily-x/react'
 
 export const Space: ISchema = {
   type: 'object',

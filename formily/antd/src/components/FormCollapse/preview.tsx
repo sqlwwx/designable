@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import { observer } from '@formily/react'
+import { observer } from '@formily-x/react'
 import { Collapse } from 'antd'
 import { CollapseProps, CollapsePanelProps } from 'antd/lib/collapse'
 import { TreeNode, createBehavior, createResource } from '@designable/core'
@@ -10,7 +10,7 @@ import {
   TreeNodeWidget,
   DnFC,
 } from '@designable/react'
-import { toArr } from '@formily/shared'
+import { toArr } from '@formily-x/shared'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { useDropTemplate } from '../../hooks'
 import { createVoidFieldSchema } from '../Field'

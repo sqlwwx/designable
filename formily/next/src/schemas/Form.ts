@@ -1,4 +1,4 @@
-import type { ISchema } from '@formily/react'
+import type { ISchema } from '@formily-x/react'
 import { FormLayout } from './FormLayout'
 import { CSSStyle } from './CSSStyle'
 

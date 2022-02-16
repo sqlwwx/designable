@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { useTransformHelper, useCursor, usePrefix } from '../../hooks'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { CursorStatus } from '@designable/core'
 import { ILineSegment, calcRectOfAxisLineSegment } from '@designable/shared'
 

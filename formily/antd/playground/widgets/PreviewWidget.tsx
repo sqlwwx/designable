@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { createForm } from '@formily/core'
-import { createSchemaField, FormConsumer } from '@formily/react'
+import { createForm } from '@formily-x/core'
+import { createSchemaField, FormConsumer } from '@formily-x/react'
 import {
   Form,
   FormItem,
@@ -29,7 +29,7 @@ import {
   ArrayTable,
   ArrayTabs,
   ArrayCards,
-} from '@formily/antd'
+} from '@formily-x/antd'
 import { Card, Slider, Rate } from 'antd'
 import { TreeNode } from '@designable/core'
 import { transformToSchema } from '@designable/formily-transformer'

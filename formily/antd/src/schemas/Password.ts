@@ -1,4 +1,4 @@
-import { ISchema } from '@formily/react'
+import { ISchema } from '@formily-x/react'
 import { Input } from './Input'
 export const Password: ISchema = {
   type: 'object',

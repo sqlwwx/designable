@@ -18,7 +18,7 @@ import {
   HistoryWidget,
 } from '@designable/react'
 import { SettingsForm, MonacoInput } from '@designable/react-settings-form'
-import { observer } from '@formily/react'
+import { observer } from '@formily-x/react'
 import {
   createDesigner,
   createResource,

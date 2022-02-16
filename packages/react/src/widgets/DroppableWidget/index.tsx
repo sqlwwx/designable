@@ -1,6 +1,6 @@
 import React from 'react'
 import { TreeNode } from '@designable/core'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { useTreeNode, useNodeIdProps } from '../../hooks'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Field, useField, observer } from '@formily/react'
-import { Radio } from '@formily/antd'
+import { Field, useField, observer } from '@formily-x/react'
+import { Radio } from '@formily-x/antd'
 import { usePrefix, IconWidget } from '@designable/react'
 import { InputItems } from '../InputItems'
 import cls from 'classnames'

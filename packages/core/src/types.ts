@@ -1,5 +1,5 @@
 import { IEventProps, Event } from '@designable/shared'
-import { ISchema } from '@formily/json-schema'
+import { ISchema } from '@formily-x/json-schema'
 import {
   Engine,
   ITreeNode,

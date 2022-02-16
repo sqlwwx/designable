@@ -1,7 +1,7 @@
 import React from 'react'
 import { TreeNode } from '@designable/core'
 import { MonacoInput } from '@designable/react-settings-form'
-import { isEmpty, isPlainObj } from '@formily/shared'
+import { isEmpty, isPlainObj } from '@formily-x/shared'
 
 export interface IMarkupSchemaWidgetProps {
   tree: TreeNode
@@ -62,8 +62,8 @@ const transformToMarkupSchemaCode = (tree: TreeNode) => {
     return child.componentName === 'Form' || child.componentName === 'Root'
   })
   return `import React, { useMemo } from 'react'
-import { createForm } from '@formily/core'
-import { createSchemaField } from '@formily/react'
+import { createForm } from '@formily-x/core'
+import { createSchemaField } from '@formily-x/react'
 import {
   Form,
   FormItem,
@@ -91,7 +91,7 @@ import {
   FormCollapse,
   ArrayTable,
   ArrayCards,
-} from '@formily/next'
+} from '@formily-x/next'
 import { Card, Range, Rating } from '@alifd/next'
 
 const Text: React.FC<{

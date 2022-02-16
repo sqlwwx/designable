@@ -3,7 +3,7 @@ import { useTree, usePrefix, useDesigner, useComponents } from '../../hooks'
 import { TreeNodeContext, DesignerComponentsContext } from '../../context'
 import { IDesignerComponents } from '../../types'
 import { TreeNode, GlobalRegistry } from '@designable/core'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import cls from 'classnames'
 import './styles.less'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormGrid as FormilyGird } from '@formily/antd'
+import { FormGrid as FormilyGird } from '@formily-x/antd'
 import { TreeNode, createBehavior, createResource } from '@designable/core'
 import {
   DnFC,
@@ -7,7 +7,7 @@ import {
   useNodeIdProps,
   DroppableWidget,
 } from '@designable/react'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import { createFieldSchema } from '../Field'
 import { AllSchemas } from '../../schemas'

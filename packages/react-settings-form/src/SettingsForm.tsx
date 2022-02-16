@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
-import { createForm } from '@formily/core'
-import { Form } from '@formily/antd'
-import { observer } from '@formily/react'
+import { createForm } from '@formily-x/core'
+import { Form } from '@formily-x/antd'
+import { observer } from '@formily-x/react'
 import { requestIdle, cancelIdle } from '@designable/shared'
 import {
   usePrefix,

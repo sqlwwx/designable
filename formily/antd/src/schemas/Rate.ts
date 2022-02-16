@@ -1,4 +1,4 @@
-import { ISchema } from '@formily/react'
+import { ISchema } from '@formily-x/react'
 
 export const Rate: ISchema = {
   type: 'object',

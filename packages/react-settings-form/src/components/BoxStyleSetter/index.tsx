@@ -1,5 +1,5 @@
 import React from 'react'
-import { useField, observer } from '@formily/react'
+import { useField, observer } from '@formily-x/react'
 import { usePrefix, IconWidget } from '@designable/react'
 import { FoldItem } from '../FoldItem'
 import { SizeInput } from '../SizeInput'

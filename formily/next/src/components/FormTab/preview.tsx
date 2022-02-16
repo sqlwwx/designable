@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import { observer } from '@formily/react'
+import { observer } from '@formily-x/react'
 import { Tab } from '@alifd/next'
 import { TabProps, ItemProps as TabItemProps } from '@alifd/next/types/tab'
 import { TreeNode, createBehavior, createResource } from '@designable/core'

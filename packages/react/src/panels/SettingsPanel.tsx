@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { requestIdle } from '@designable/shared'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { TextWidget, IconWidget } from '../widgets'
 import { usePrefix, useWorkbench } from '../hooks'
 import cls from 'classnames'

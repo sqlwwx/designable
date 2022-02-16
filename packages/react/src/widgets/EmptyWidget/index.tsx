@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTree, usePrefix } from '../../hooks'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { IconWidget } from '../IconWidget'
 import './styles.less'
 

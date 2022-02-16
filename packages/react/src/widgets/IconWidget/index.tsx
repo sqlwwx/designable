@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useRef } from 'react'
 import { isStr, isFn, isObj, isPlainObj } from '@designable/shared'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { Tooltip, TooltipProps } from 'antd'
 import { usePrefix, useRegistry, useTheme } from '../../hooks'
 import cls from 'classnames'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Password as FormilyPassword } from '@formily/next'
+import { Password as FormilyPassword } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

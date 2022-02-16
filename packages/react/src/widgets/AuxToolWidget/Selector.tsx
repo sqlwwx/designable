@@ -4,7 +4,7 @@ import { useHover, useSelection, usePrefix } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import { Button } from 'antd'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 
 const useMouseHover = <T extends { current: HTMLElement }>(
   ref: T,

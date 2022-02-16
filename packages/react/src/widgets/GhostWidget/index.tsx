@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react'
 import { useCursor, usePrefix, useDesigner } from '../../hooks'
 import { CursorStatus } from '@designable/core'
-import { autorun } from '@formily/reactive'
-import { observer } from '@formily/reactive-react'
+import { autorun } from '@formily-x/reactive'
+import { observer } from '@formily-x/reactive-react'
 import { NodeTitleWidget } from '../NodeTitleWidget'
 import './styles.less'
 

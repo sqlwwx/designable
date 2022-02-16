@@ -1,5 +1,5 @@
 import { Engine } from './Engine'
-import { action, define, observable } from '@formily/reactive'
+import { action, define, observable } from '@formily-x/reactive'
 import { globalThisPolyfill, isValidNumber } from '@designable/shared'
 
 export enum CursorStatus {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { TimePicker as FormilyTimePicker } from '@formily/next'
+import { TimePicker as FormilyTimePicker } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

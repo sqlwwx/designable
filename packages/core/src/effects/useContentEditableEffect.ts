@@ -1,4 +1,4 @@
-import { Path } from '@formily/path'
+import { Path } from '@formily-x/path'
 import { requestIdle, globalThisPolyfill } from '@designable/shared'
 import { Engine, TreeNode } from '../models'
 import { MouseDoubleClickEvent, MouseClickEvent } from '../events'

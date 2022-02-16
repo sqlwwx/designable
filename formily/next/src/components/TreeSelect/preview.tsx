@@ -1,5 +1,5 @@
 import React from 'react'
-import { TreeSelect as FormilyTreeSelect } from '@formily/next'
+import { TreeSelect as FormilyTreeSelect } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

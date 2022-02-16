@@ -1,6 +1,6 @@
 import React from 'react'
-import { FormPath } from '@formily/core'
-import { toJS } from '@formily/reactive'
+import { FormPath } from '@formily-x/core'
+import { toJS } from '@formily-x/reactive'
 import {
   ArrayField,
   Field as InternalField,
@@ -9,9 +9,9 @@ import {
   observer,
   ISchema,
   Schema,
-} from '@formily/react'
-import { FormItem } from '@formily/next'
-import { each, reduce } from '@formily/shared'
+} from '@formily-x/react'
+import { FormItem } from '@formily-x/next'
+import { each, reduce } from '@formily-x/shared'
 import { createBehavior } from '@designable/core'
 import {
   useDesigner,

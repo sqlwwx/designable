@@ -1,14 +1,14 @@
 import React from 'react'
-import { ArrayField } from '@formily/core'
+import { ArrayField } from '@formily-x/core'
 import {
   observer,
   useField,
   SchemaContext,
   Schema,
   ISchema,
-} from '@formily/react'
+} from '@formily-x/react'
 import { GlobalRegistry } from '@designable/core'
-import { ArrayItems } from '@formily/antd'
+import { ArrayItems } from '@formily-x/antd'
 import { FoldItem } from '@designable/react-settings-form'
 import { Select } from 'antd'
 

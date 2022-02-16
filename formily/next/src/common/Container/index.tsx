@@ -1,5 +1,5 @@
 import React from 'react'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { useNodeIdProps, useTreeNode, DroppableWidget } from '@designable/react'
 import './styles.less'
 

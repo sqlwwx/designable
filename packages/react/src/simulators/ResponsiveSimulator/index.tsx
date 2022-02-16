@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import {
   Engine,
   DragStartEvent,

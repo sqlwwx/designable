@@ -1,4 +1,4 @@
-import { ISchema } from '@formily/react'
+import { ISchema } from '@formily-x/react'
 
 export const FormCollapse: ISchema & { CollapsePanel?: ISchema } = {
   type: 'object',

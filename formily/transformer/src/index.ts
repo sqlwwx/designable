@@ -1,4 +1,4 @@
-import { ISchema, Schema } from '@formily/json-schema'
+import { ISchema, Schema } from '@formily-x/json-schema'
 import { ITreeNode } from '@designable/core'
 import { clone, uid } from '@designable/shared'
 

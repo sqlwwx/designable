@@ -52,7 +52,7 @@ export default {
     alias: getAlias(),
   },
   externals: {
-    '@formily/reactive': 'Formily.Reactive',
+    '@formily-x/reactive': 'Formily.Reactive',
     react: 'React',
     'react-dom': 'ReactDOM',
     moment: 'moment',

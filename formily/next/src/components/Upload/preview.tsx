@@ -1,5 +1,5 @@
 import React from 'react'
-import { Upload as FormilyUpload } from '@formily/next'
+import { Upload as FormilyUpload } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

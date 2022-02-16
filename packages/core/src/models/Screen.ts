@@ -1,5 +1,5 @@
 import { Engine } from './Engine'
-import { action, define, observable } from '@formily/reactive'
+import { action, define, observable } from '@formily-x/reactive'
 
 export enum ScreenType {
   PC = 'PC',

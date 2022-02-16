@@ -1,6 +1,6 @@
 import React from 'react'
 import { Space, Typography, Divider, TypographyProps } from 'antd'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { usePrefix, useTreeNode, useSelected } from '../../hooks'
 import { IconWidget } from '../IconWidget'
 import { TextWidget } from '../TextWidget'

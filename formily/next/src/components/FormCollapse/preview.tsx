@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import { observer } from '@formily/react'
+import { observer } from '@formily-x/react'
 import { Collapse } from '@alifd/next'
 import {
   CollapseProps,

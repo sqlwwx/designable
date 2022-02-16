@@ -8,8 +8,8 @@ import {
   useNodeIdProps,
   DnFC,
 } from '@designable/react'
-import { ArrayBase } from '@formily/antd'
-import { observer } from '@formily/react'
+import { ArrayBase } from '@formily-x/antd'
+import { observer } from '@formily-x/react'
 import { LoadTemplate } from '../../common/LoadTemplate'
 import cls from 'classnames'
 import {

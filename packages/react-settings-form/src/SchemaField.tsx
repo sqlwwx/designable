@@ -1,4 +1,4 @@
-import { createSchemaField } from '@formily/react'
+import { createSchemaField } from '@formily-x/react'
 import {
   FormItem,
   Input,
@@ -15,7 +15,7 @@ import {
   FormGrid,
   FormLayout,
   FormTab,
-} from '@formily/antd'
+} from '@formily-x/antd'
 import { Slider } from 'antd'
 import {
   SizeInput,

@@ -1,4 +1,4 @@
-import { ISchema } from '@formily/json-schema'
+import { ISchema } from '@formily-x/json-schema'
 import {
   ReactionsSetter,
   DataSourceSetter,

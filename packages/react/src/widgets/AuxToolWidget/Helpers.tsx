@@ -1,6 +1,6 @@
 import React, { useRef, useState, useLayoutEffect } from 'react'
 import { TreeNode } from '@designable/core'
-import { reaction } from '@formily/reactive'
+import { reaction } from '@formily-x/reactive'
 import { usePrefix, useViewport } from '../../hooks'
 import { Selector } from './Selector'
 import { Copy } from './Copy'

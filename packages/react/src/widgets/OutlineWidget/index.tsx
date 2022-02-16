@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from 'react'
 import cls from 'classnames'
 import { useTree, usePrefix, useOutline, useWorkbench } from '../../hooks'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { OutlineTreeNode } from './OutlineNode'
 import { Insertion } from './Insertion'
 import { TreeNode, Viewport } from '@designable/core'

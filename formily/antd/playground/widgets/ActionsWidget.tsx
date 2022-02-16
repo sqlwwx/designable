@@ -3,7 +3,7 @@ import { Space, Button, Radio } from 'antd'
 import { GithubOutlined } from '@ant-design/icons'
 import { useDesigner, TextWidget } from '@designable/react'
 import { GlobalRegistry } from '@designable/core'
-import { observer } from '@formily/react'
+import { observer } from '@formily-x/react'
 import {
   loadInitialSchema,
   saveSchema,

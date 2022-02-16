@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import { WorkbenchTypes } from '@designable/core'
 import { IconWidget } from '../IconWidget'
 import { usePrefix, useWorkbench } from '../../hooks'

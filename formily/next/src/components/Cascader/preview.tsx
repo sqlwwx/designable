@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cascader as FormilyCascader } from '@formily/next'
+import { Cascader as FormilyCascader } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

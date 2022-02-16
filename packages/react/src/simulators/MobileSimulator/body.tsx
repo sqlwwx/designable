@@ -1,4 +1,4 @@
-import { observer } from '@formily/reactive-react'
+import { observer } from '@formily-x/reactive-react'
 import React from 'react'
 import { useScreen, usePrefix, useTheme } from '../../hooks'
 

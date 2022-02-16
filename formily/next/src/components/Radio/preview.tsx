@@ -1,5 +1,5 @@
 import React from 'react'
-import { Radio as FormilyRadio } from '@formily/next'
+import { Radio as FormilyRadio } from '@formily-x/next'
 import { createBehavior, createResource } from '@designable/core'
 import { DnFC } from '@designable/react'
 import { createFieldSchema } from '../Field'

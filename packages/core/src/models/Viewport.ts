@@ -11,7 +11,7 @@ import {
   IRect,
   isRectInRect,
 } from '@designable/shared'
-import { action, define, observable } from '@formily/reactive'
+import { action, define, observable } from '@formily-x/reactive'
 import { Workspace } from './Workspace'
 import { Engine } from './Engine'
 import { TreeNode } from './TreeNode'

@@ -1,4 +1,4 @@
-import { observable, define, action } from '@formily/reactive'
+import { observable, define, action } from '@formily-x/reactive'
 import { Operation } from './Operation'
 import { SelectNodeEvent, UnSelectNodeEvent } from '../events'
 import { TreeNode } from './TreeNode'

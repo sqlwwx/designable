@@ -1,6 +1,6 @@
 import { Engine } from './Engine'
 import { Workspace, IWorkspaceProps } from './Workspace'
-import { observable, define, action } from '@formily/reactive'
+import { observable, define, action } from '@formily-x/reactive'
 import {
   AddWorkspaceEvent,
   RemoveWorkspaceEvent,

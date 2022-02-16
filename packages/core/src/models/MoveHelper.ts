@@ -1,6 +1,6 @@
 import { Operation } from './Operation'
 import { TreeNode } from './TreeNode'
-import { observable, define, action } from '@formily/reactive'
+import { observable, define, action } from '@formily-x/reactive'
 import {
   calcDistanceOfPointToRect,
   calcDistancePointToEdge,

@@ -31,7 +31,10 @@ export const Text: DnFC<IDesignableTextProps> = (props) => {
 Text.Behavior = createBehavior({
   name: 'Text',
   extends: ['Field'],
-  selector: (node) => node.props['x-component'] === 'Text',
+  selector: (node) => {
+    const componentName = node.props['x-component'] || ''
+    return componentName === 'Text' || componentName.startsWith('FieldVoid')
+  },
   designerProps: {
     propsSchema: createVoidFieldSchema(AllSchemas.Text),
   },

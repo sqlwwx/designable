@@ -75,6 +75,57 @@ import {
 
 setNpmCDNRegistry('//unpkg.com')
 
+const components = new Proxy(
+  {
+    Form,
+    Field,
+    Input,
+    Select,
+    TreeSelect,
+    Cascader,
+    Radio,
+    Checkbox,
+    Slider,
+    Rate,
+    NumberPicker,
+    Transfer,
+    Password,
+    DatePicker,
+    TimePicker,
+    Upload,
+    Switch,
+    Text,
+    Card,
+    ArrayCards,
+    ArrayTable,
+    ArrayTabs,
+    Space,
+    FormTab,
+    FormCollapse,
+    FormGrid,
+    FormLayout,
+    ObjectContainer,
+    HoursSlide,
+    ImageUploader,
+    Picker,
+    VideoUploader,
+    FieldVoidBatchSetWxid: Text,
+  },
+  {
+    get: (target, prop) => {
+      if (prop in target) {
+        return target[prop]
+      }
+      if (prop.toString().startsWith('FieldVoid')) {
+        return target.Text
+      }
+      if (prop.toString().startsWith('Field')) {
+        return target.Input
+      }
+    },
+  }
+)
+
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {
     sources: {
@@ -187,44 +238,7 @@ const App = () => {
               </ToolbarPanel>
               <ViewportPanel style={{ height: '100%' }}>
                 <ViewPanel type="DESIGNABLE">
-                  {() => (
-                    <ComponentTreeWidget
-                      components={{
-                        Form,
-                        Field,
-                        Input,
-                        Select,
-                        TreeSelect,
-                        Cascader,
-                        Radio,
-                        Checkbox,
-                        Slider,
-                        Rate,
-                        NumberPicker,
-                        Transfer,
-                        Password,
-                        DatePicker,
-                        TimePicker,
-                        Upload,
-                        Switch,
-                        Text,
-                        Card,
-                        ArrayCards,
-                        ArrayTable,
-                        ArrayTabs,
-                        Space,
-                        FormTab,
-                        FormCollapse,
-                        FormGrid,
-                        FormLayout,
-                        ObjectContainer,
-                        HoursSlide,
-                        ImageUploader,
-                        Picker,
-                        VideoUploader,
-                      }}
-                    />
-                  )}
+                  {() => <ComponentTreeWidget components={components} />}
                 </ViewPanel>
                 <ViewPanel type="JSONTREE" scrollable={false}>
                   {(tree, onChange) => (

@@ -163,6 +163,12 @@ export const createVoidFieldSchema = (
         type: 'void',
         'x-component': 'CollapseItem',
         properties: {
+          'x-component': {
+            title: '组件',
+            type: 'string',
+            'x-decorator': 'FormItem',
+            'x-component': 'Input',
+          },
           name: {
             type: 'string',
             'x-decorator': 'FormItem',
